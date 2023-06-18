@@ -1,0 +1,129 @@
+body{
+    background-image: linear-gradient( 288deg,  rgba(0,85,255,1) 1.5%, rgba(4,56,115,1) 91.6% );
+    width: 100%;    
+}
+      
+h1{
+    margin-left: 3.5%;
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 10%;
+    font-weight: bolder;
+}
+
+.box{
+    display: flex;
+    color: rgb(15, 69, 150);
+    margin-left: 2.5%;
+    width: 95%;    
+    border-radius: 15px; 
+    margin-top:42px;
+    font-size: 18px;
+    padding: 3%;
+    border: solid 2px rgb(15, 69, 150);; 
+    background-image: radial-gradient( circle 674px at 18.3% 77%,  rgb(217, 217, 218) 3.4%, rgb(240, 239, 239) 56.6% ); 
+}
+
+.olho { 
+    cursor: pointer;
+    margin-left: 70%;
+    margin-top: -20%; 
+    width: 40px;
+    
+  }
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom:1px solid rgb(15, 69, 150) ;
+    outline: none;
+    font-size: 20px;
+    width: 100%; 
+    margin-left: 2.5%; 
+    margin-right: 2.5%;
+}
+
+.labelInput{
+    font-size: 22px;
+    position: relative;
+    top: -28px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s; 
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 2.5%; 
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -55px;
+    font-size:  15px;
+    color: dodgerblue; 
+    font-family: 'Bebas Neue', cursive;
+}
+    
+.data_nascimento{
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 17px; 
+    font-family: 'Bebas Neue', cursive;
+    border: solid 1px rgb(15, 69, 150);
+}
+
+#voltar{
+    display: inline;
+    
+}
+.voltar{
+    width: 45%;
+    padding: 3%;
+    font-size: 120%;
+    margin-left: 6%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: 600;
+    background-color:rgb(9, 76, 139);
+    color: white;
+    border-radius: 10px;
+    border: solid 2px  rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 0px rgb(9, 76, 139);
+}
+.voltar a{
+    color: white;
+    text-decoration: none;
+    
+}
+.voltar a:hover{
+    color:rgb(9, 76, 139) ;
+}
+.submit{
+    width: 45%;
+    padding: 3%;
+    font-size: 120%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    font-weight: 600;
+    background-color:rgb(9, 76, 139);
+    color: white;
+    border-radius: 10px;
+    border: solid 2px  rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 0px rgb(9, 76, 139);
+}  
+    
+.voltar:hover{
+    border: solid 2px  rgb(9, 76, 139);
+    background-color: white;
+
+}
+.submit:hover{
+    border: solid 2px  rgb(9, 76, 139);
+    background-color: white;
+    color:rgb(9, 76, 139) ;
+}
+
+
+    
+   

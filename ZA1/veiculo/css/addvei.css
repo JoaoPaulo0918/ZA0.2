@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255, 255, 255, 0.67) 0.1%, rgba(239, 244, 251, 0.63) 90.1% );  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 750px; 
+}
+
+header{
+    width: 100%;
+    background-image: linear-gradient( 288deg,  rgba(0,85,255,1) 1.5%, rgba(4,56,115,1) 91.6% );
+    position: fixed;
+    top: 0px;   
+}
+
+header h1{
+    text-align: center;
+    color: white;    
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient( 288deg,  rgb(206, 203, 203) 1.5%, rgb(206, 203, 203) 91.6% );
+    justify-content: center;
+    align-items: center;  
+    bottom: 0px;
+}
+
+.inicio{
+    width: 45%;
+    margin-left: 20%;
+}
+
+.historico{
+    width: 60%;  
+    margin-left: -10%;
+    
+}
+
+.carteira {
+    width: 90%;  
+    margin-left: -45%;  
+}
+
+.perfil{
+    
+    width: 100%; 
+    margin-left: -35%;
+}
+
+.lembrete{
+    width: 45%;
+}
+
+.carro{
+    width: 100%;
+    margin-left: -100%;
+    border: solid 2px rgb(255, 255, 255);
+    padding: 5px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 85%;    
+    border-radius: 15px; 
+    margin-top:24%;
+    font-size: 18px;
+    padding: 3%;
+    border: solid 2px rgb(11, 74, 168);; 
+    background-image: radial-gradient( circle 674px at 18.3% 77%,  rgb(217, 217, 218) 3.4%, rgb(240, 239, 239) 56.6% ); 
+}
+.box h1{
+    color: rgb(15, 69, 150);
+    margin-left: 2%;
+    font-weight: 900;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom:2px solid rgb(19, 88, 153);
+    outline: none;
+    font-size: 20px;
+    width: 90%; 
+    margin-left: 4%;
+    margin-top: 2%;
+    
+}
+
+.labelInput{
+    font-size: 22px;
+    position: relative;
+    top: -28px;
+    left: 2%;
+    pointer-events: none;
+    transition: .5s; 
+    margin-left: 2.5%; 
+    color: rgb(9, 76, 139);
+    font-weight: 900;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -55px;
+    font-size:  15px;
+    color: rgb(0, 128, 255); 
+}
+
+#voltar{
+    display: inline;
+    
+}
+.voltar{
+    width: 45%;
+    padding: 3%;
+    font-size: 120%;
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: 600;
+    background-color:rgb(9, 76, 139);
+    color: white;
+    border-radius: 10px;
+    border: solid 2px  rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 0px rgb(9, 76, 139);
+}
+.voltar a{
+    color: white;
+    text-decoration: none;
+    
+}
+.voltar a:hover{
+    color:rgb(9, 76, 139) ;
+}
+.submit{
+    width: 45%;
+    padding: 3%;
+    font-size: 120%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    font-weight: 600;
+    background-color:rgb(9, 76, 139);
+    color: white;
+    border-radius: 10px;
+    border: solid 2px  rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 0px rgb(9, 76, 139);
+}  
+    
+.voltar:hover{
+    border: solid 2px  rgb(9, 76, 139);
+    background-color: white;
+
+}
+.submit:hover{
+    border: solid 2px  rgb(9, 76, 139);
+    background-color: white;
+    color:rgb(9, 76, 139) ;
+}
